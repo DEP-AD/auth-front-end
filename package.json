@@ -1,0 +1,14 @@
+{
+  "name": "auth-front-end",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf ./docs",
+    "start": "parcel index.html --dist-dir docs",
+    "build": "rm -rf ./docs && parcel build index.html --dist-dir docs"
+  },
+  "author": "Aruni",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
